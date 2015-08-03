@@ -23,6 +23,7 @@ public class App extends Application {
     }
 
     public static Context getContext() {
+        System.out.print("HelloWorld");
         return sContext;
     }
 
